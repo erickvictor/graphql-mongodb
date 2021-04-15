@@ -8,8 +8,8 @@ export class LessonResolver {
     return {
       id: 'asdjo12j31a',
       name: 'Physics Class',
-      startDate: (new Date()).toTimeString(),
-      endDate: (new Date()).toTimeString()
+      startDate: (new Date()).toISOString(),
+      endDate: (new Date()).toISOString()
     };
   }
 }
